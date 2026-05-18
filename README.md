@@ -1,6 +1,6 @@
 # API Learning App 🚀
 
-A Flutter application for learning and practicing API integration in Flutter.
+A Flutter application for learning and practicing API integration in Flutter with model and without model
 
 ## Features
 - Fetch API data
@@ -13,11 +13,19 @@ A Flutter application for learning and practicing API integration in Flutter.
 ## Tech Stack
 - Flutter
 - Dart
-- HTTP Package / Dio
+- HTTP Package 
 - GetX
 
 ## Screenshots
-(Add screenshots here later)
+<img width="300" height="650" alt="SinglePostWithModel" src="https://github.com/user-attachments/assets/612fa5a4-ded6-46c5-b2d3-c31c20c78788" />
+<img width="300" height="650" alt="MultiPost2" src="https://github.com/user-attachments/assets/36850dbb-c32f-4817-a2a8-fdccc7f2d4f6" />
+
+
+<img width="300" height="650" alt="MultiDataWithModel" src="https://github.com/user-attachments/assets/996b7b98-d3a5-415c-95a3-55d84dd53f80" />
+
+
+
+
 
 ## Getting Started
 
