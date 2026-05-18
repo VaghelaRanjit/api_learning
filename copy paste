@@ -1,0 +1,48 @@
+// try{
+//
+//   final data = await ApiServices().getMultiPostWithoutModel();
+//   if(data != null){
+//
+//     setState(() {
+//       multiPost = data;
+//    //   isLoading = false;
+//     });
+//   }
+//
+//
+// }catch(e){
+//
+//   if(kDebugMode){
+//     print(e.toString());
+//   }
+// }
+//
+// // isLoading = false;
+//
+
+
+
+      //using future builder
+      // body: FutureBuilder(
+      //   future: ApiServices().getMultiPostWithoutModel(),
+      //   builder: (context, snapshot) {
+      //     if (snapshot.hasData) {
+      //       return ListView.builder(
+      //         itemCount: snapshot.data.length,
+      //         itemBuilder: (context, index) {
+      //           if (index % 2 == 0) {
+      //             return Card(color: Colors.teal);
+      //           }
+      //           return Card(
+      //             child: ListTile(
+      //               title: Text(snapshot.data[index]["title"].toString()),
+      //               subtitle: Text(snapshot.data[index]["body"].toString()),
+      //             ),
+      //           );
+      //         },
+      //       );
+      //     } else {
+      //       return Center(child: CircularProgressIndicator());
+      //     }
+      //   },
+      // ),
