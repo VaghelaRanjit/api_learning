@@ -1,16 +1,42 @@
-# api_learning
+# API Learning App 🚀
 
-A new Flutter project.
+A Flutter application for learning and practicing API integration in Flutter.
+
+## Features
+- Fetch API data
+- Display API response in UI
+- Loading indicators
+- Error handling
+- Clean UI
+- REST API integration
+
+## Tech Stack
+- Flutter
+- Dart
+- HTTP Package / Dio
+- GetX
+
+## Screenshots
+(Add screenshots here later)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Clone Repository
+git clone https://github.com/VaghelaRanjit/api_learning.git
 
-A few resources to get you started if this is your first Flutter project:
+### Install Dependencies
+flutter pub get
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Run Project
+flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Folder Structure
+lib/
+ ├── models/
+ ├── services/
+ ├── controllers/
+ ├── views/
+ └── main.dart
+
+## Author
+Ranjit Vaghela
